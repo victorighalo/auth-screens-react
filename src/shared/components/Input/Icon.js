@@ -4,7 +4,7 @@ class Icon extends Component {
     render(){
         return (
             <StyledIcon>
-            <i class={this.props.name} aria-hidden="true"></i>
+            <i class={this.props.iconname} aria-hidden="true"></i>
             </StyledIcon>
         )
     }
